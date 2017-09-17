@@ -7,4 +7,4 @@ while (count < total_breaks) :
     time.sleep(5)
     webbrowser.open("https://www.youtube.com/watch?v=oNWOC_Pvo4w")
     print 'Time to break'
-    print count
+    print ("This programa started on "+time.ctime())
